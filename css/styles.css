@@ -23,12 +23,34 @@
   --accent-background: #2f303a;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 ul {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .page {
@@ -55,13 +77,17 @@ h3 {
   line-height: 1.14;
 }
 
-.our-principles-title {
-  text-transform: uppercase;
-}
-
 /*СТРАНИЦА "СТУДИЯ"
 
 ===========ХЕДЕР=============*/
+header {
+  background-color: var(--main-white);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
 
 .nav-logo {
   color: var(--logo-black-color);
@@ -76,7 +102,15 @@ h3 {
   color: var(--accent-text-color);
 }
 
+.site-nav-links .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -107,6 +141,9 @@ h3 {
   color: var(--accent-text-color);
 }
 
+.header-contacts .item:not(:last-child) {
+  margin-right: 50px;
+}
 /*=======ГЕРОЙ======*/
 .hero {
   background-color: var(--accent-background);
@@ -142,6 +179,9 @@ h3 {
 
 /*========НАШИ ПРИНЦИПЫ=========
 inherited from .page and .h3  */
+.our-principles-title {
+  text-transform: uppercase;
+}
 
 /*========Чем мы занимаемся======*/
 .what-we-do-link:hover,

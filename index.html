@@ -5,35 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
 
-    <!--Подключаем шрифты и стили-->
+    <!--Подключаем шрифты, normalize и стили-->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 
 </head>
 <body class="page">
 
     <!--ШАПКА САЙТА-->
-    <header>
-     <nav class="site-nav">
-         <!--Логотип-->
-        <a class="nav-logo" href="./index.html" lang="en"><span class="logo-accent">Web</span>Studio</a>
-        <!--Основная навигация-->
-        <ul>
-            <li> <a class="site-nav-link current" href="./index.html">Студия</a></li>
-            <li> <a class="site-nav-link" href="./portfolio.html">Портфолио</a></li>
-            <li> <a class="site-nav-link" href="#">Контакты</a></li>
-        </ul>
-    </nav>
-        <!--Связаться-->
-        <address>
-            <ul>
-            <li> <a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li> <a class="header-contacts" href="tel:+380961111111">0961111111</a></li>
-            </ul>
-        </address>
-    </header>
 
+    <header class="header">
+         <div class="header container">
+             <nav class="site-nav header">
+         <!--Логотип-->
+                 <a class="nav-logo" href="./index.html" lang="en"><span class="logo-accent">Web</span>Studio</a>
+        <!--Основная навигация-->
+                 <ul class="site-nav-links header">
+                     <li class="item"> <a class="site-nav-link current" href="./index.html">Студия</a></li>
+                     <li class="item"> <a class="site-nav-link" href="./portfolio.html">Портфолио</a></li>
+                     <li class="item"> <a class="site-nav-link" href="#">Контакты</a></li>
+                 </ul>
+             </nav>
+        <!--Связаться-->
+              <address>
+                 <ul class="header-contacts header">
+                 <li class="item"> <a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                 <li class="item"> <a class="header-contacts" href="tel:+380961111111">0961111111</a></li>
+                 </ul>
+             </address>
+        </div>
+    </header>
+</div>
 
      <main>
 
