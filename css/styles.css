@@ -82,6 +82,7 @@ h3 {
 ===========ХЕДЕР=============*/
 header {
   background-color: var(--main-white);
+  height: 80px;
 }
 
 .header {
@@ -90,6 +91,8 @@ header {
 }
 
 .nav-logo {
+  margin-right: 93px;
+
   color: var(--logo-black-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -139,6 +142,10 @@ header {
 
 .current {
   color: var(--accent-text-color);
+}
+
+.address {
+  margin-left: auto;
 }
 
 .header-contacts .item:not(:last-child) {
