@@ -224,14 +224,33 @@ inherited from .page and .h3  */
   height: 75px;
 }
 
-.our-principles-item.item:not(:last-child) {
+.our-principles-item:not(:last-child) {
   padding-right: 30px;
 }
 
 /*========Чем мы занимаемся======*/
+.what-we-do-links {
+  display: flex;
+}
+
+.what-we-do-title {
+  display: block;
+  margin-bottom: 50px;
+}
+
 .what-we-do-link:hover,
 .what-we-do-link:focus {
   color: var(--accent-text-color);
+}
+
+.what-we-do-link {
+  display: flex;
+  width: 370px;
+  height: 294px;
+}
+
+.what-we-do-link:not(:last-child) {
+  margin-right: 30px;
 }
 
 /*=========НАША КОМАНДА===========
