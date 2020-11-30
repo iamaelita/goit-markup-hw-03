@@ -229,6 +229,10 @@ inherited from .page and .h3  */
 }
 
 /*========Чем мы занимаемся======*/
+.what-we-do {
+  margin-bottom: 94px;
+}
+
 .what-we-do-links {
   display: flex;
 }
@@ -254,7 +258,52 @@ inherited from .page and .h3  */
 }
 
 /*=========НАША КОМАНДА===========
-inherited from .page and .h3  */
+font styles are inherited from .page and .h3  */
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--sub-background);
+}
+
+.our-team-title {
+  margin-bottom: 50px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-team-item {
+  height: 368px;
+  padding-bottom: 30px;
+  background-color: var(--main-white);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-team-item-image {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.our-team-item-title {
+  padding-bottom: 10px;
+  text-align: center;
+
+  font-weight: 500;
+}
+
+.position {
+  text-align: center;
+
+  font-size: 16px;
+  line-height: 1.19;
+}
 
 /*=========ФУТЕР===========*/
 .footer {
