@@ -308,9 +308,17 @@ font styles are inherited from .page and .h3  */
 /*=========ФУТЕР===========*/
 .footer {
   background-color: var(--accent-background);
-} /*временно для белого шрифта*/
+}
+
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
+
   color: var(--main-white);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -323,7 +331,11 @@ font styles are inherited from .page and .h3  */
   color: var(--accent-text-color);
 }
 
-.footer-address {
+.footer-address,
+.mail {
+  display: block;
+  margin-bottom: 9px;
+
   color: var(--main-white);
   font-family: Roboto;
   font-style: normal;
