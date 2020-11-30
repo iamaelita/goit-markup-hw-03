@@ -206,8 +206,26 @@ header {
 
 /*========НАШИ ПРИНЦИПЫ=========
 inherited from .page and .h3  */
+.our-principles-list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .our-principles-title {
   text-transform: uppercase;
+  width: 270px;
+  margin-bottom: 10px;
+}
+
+.our-principles-item {
+  flex-wrap: wrap;
+  width: 270px;
+  height: 75px;
+}
+
+.our-principles-item.item:not(:last-child) {
+  padding-right: 30px;
 }
 
 /*========Чем мы занимаемся======*/
