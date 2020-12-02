@@ -83,6 +83,8 @@ h3 {
 header {
   background-color: var(--main-white);
   height: 80px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -114,8 +116,6 @@ header {
 
 .site-nav-link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
@@ -149,8 +149,6 @@ header {
 
 .address {
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-contacts .item:not(:last-child) {
@@ -161,6 +159,8 @@ header {
 .hero {
   display: block;
   height: 600px;
+  padding-top: 200px;
+  padding-bottom: 280px;
   text-align: center;
   background-color: var(--accent-background);
   border: none;
@@ -168,7 +168,6 @@ header {
 
 .hero .container {
   display: block;
-  padding-top: 200px;
   text-align: center;
 }
 
@@ -187,7 +186,6 @@ header {
 
 .button-order {
   padding: 10px 32px;
-  margin-bottom: 200px;
   min-width: 200px;
   height: 50px;
 
@@ -254,7 +252,6 @@ inherited from .page and .h3  */
 }
 
 .what-we-do-link {
-  display: flex;
   width: 370px;
   height: 294px;
 }
@@ -298,7 +295,7 @@ font styles are inherited from .page and .h3  */
 }
 
 .our-team-item-title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   text-align: center;
 
   font-weight: 500;
@@ -314,9 +311,6 @@ font styles are inherited from .page and .h3  */
 /*=========ФУТЕР===========*/
 .footer {
   background-color: var(--accent-background);
-}
-
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -364,11 +358,13 @@ font styles are inherited from .page and .h3  */
 /*СТРАНИЦА "ПОРТФОЛИО"
 
 ========ПОРТФОЛИО-НАВИГАЦИЯ============*/
+.portfolio-main {
+  margin-top: 94px;
+}
 
 .buttons-portfolio {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -406,6 +402,10 @@ font styles are inherited from .page and .h3  */
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+}
+
+.portfolio-main {
+  margin-bottom: 94px;
 }
 
 /* li*/
@@ -470,8 +470,4 @@ font styles are inherited from .page and .h3  */
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
-}
-
-.portfolio-main {
-  padding-bottom: 94px;
 }
