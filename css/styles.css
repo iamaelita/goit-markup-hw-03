@@ -211,10 +211,13 @@ header {
 
 /*========НАШИ ПРИНЦИПЫ=========
 inherited from .page and .h3  */
-.our-principles-list {
-  display: flex;
+.our-principles {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.our-principles-list {
+  display: flex;
 }
 
 .our-principles-title {
@@ -234,7 +237,7 @@ inherited from .page and .h3  */
 
 /*========Чем мы занимаемся======*/
 .what-we-do {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .what-we-do-links {
@@ -359,7 +362,8 @@ font styles are inherited from .page and .h3  */
 
 ========ПОРТФОЛИО-НАВИГАЦИЯ============*/
 .portfolio-main {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .buttons-portfolio {
@@ -402,10 +406,6 @@ font styles are inherited from .page and .h3  */
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-}
-
-.portfolio-main {
-  margin-bottom: 94px;
 }
 
 /* li*/
